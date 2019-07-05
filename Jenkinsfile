@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        sh 'npm install'
+        bat(encoding: 'utf-8', script: 'cd /d D:\\hand')
       }
     }
   }
